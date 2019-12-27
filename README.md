@@ -14,6 +14,17 @@ Rapid advances in high-throughput sequencing technology have led to the generati
 multi-omics biological datasets. Integrating data from different omics provides an unprecedented opportunity to gain insight into disease mechanism from different perspectives. However, integrative analysis and predictive modeling from multi-omics data are facing three major challenges: i) heavy noises; ii) the high dimensions compared to the small samples; iii) data heterogeneity. Current multi-omics data integration approaches have some limitations and are susceptible to heavy noise. In this paper, we present MSPL, a robust supervised multi-omics data integration method that simultaneously identifies significant multi-omics signatures during the integration process and predicts the cancer subtypes. The proposed method not only inherits the generalization performance of self-paced learning, but also
 leverages the properties of multi-omics data containing correlated information to interactively recommend high-confidence samples for model training. We demonstrate the capabilities of MSPL using simulated data and five multi-omics biological datasets, integrating up three omics to identify potential biological signatures, and evaluating the performance compared to state-of-the-art methods in binary and multi-class classification problems. Our proposed model makes multi-omics data integration more systematic and expands its range of applications.
 
+If you find this code useful in your research then please cite:
+```bash
+@article{yang2019mspl,
+  title={MSPL: Multimodal Self-Paced Learning for multi-omics feature selection and data integration},
+  author={Yang, Zi-Yi and Xia, Liang-Yong and Zhang, Hui and Liang, Yong},
+  journal={IEEE Access},
+  year={2019},
+  publisher={IEEE}
+}
+```
+
 ## II. Introduce about code
 
 ### i . The repository can be divided into three parts: 
